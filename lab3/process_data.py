@@ -1,10 +1,10 @@
 import json
-from .gen_random import gen_random
-from .print_result import print_result
-from .cm_timer import cm_timer_1
+from gen_random import gen_random
+from print_result import print_result
+from cm_timer import cm_timer_1
 
 
-path = r"/home/egorp/python/Labs3Sem/Lab3/data.json"
+path = r"/home/winer/sem3/python/Lab3sem/lab3/data.json"
 
 with open(path, encoding='utf-8') as f:
     data = json.load(f)
