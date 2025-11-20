@@ -1,4 +1,4 @@
-from .gen_random import gen_random
+from gen_random import gen_random
 
 class Unique(object):
     def __init__(self, items, **kwargs):
